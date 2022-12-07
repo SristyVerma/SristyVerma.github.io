@@ -58,7 +58,7 @@ const sideBarMenu = [
 const socialIcons = [
   {
     icon: <GrGithub className="icon switch__color" />,
-    url: 'https://github.com/Almarex-Web-Dev ',
+    url: 'https://github.com/SristyVerma',
   },
  
   // {
@@ -71,7 +71,7 @@ const socialIcons = [
   // },
   {
     icon: <FiLinkedin className="icon switch__color" />,
-    url: 'https://www.linkedin.com/in/almarex/',
+    url: 'https://www.linkedin.com/in/sristy-verma/',
   },
 ]
 // programming lanuages (spanText), icons and url

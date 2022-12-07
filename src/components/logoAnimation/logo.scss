@@ -5,13 +5,9 @@
   left: 68%;
   display: block;
   // animation: fadeIn 10s linear;
-  opacity: 0;
+}
 
-  svg {
-    width: 100%;
-    height: auto;
-    fill: transparent;
-  }
+ 
   .solid-logo {
     position: absolute;
     top: auto;
@@ -21,7 +17,7 @@
    
     z-index: 1;
   }
-}
+
 
 .logo-container {
   stroke: var(--color-tem);
