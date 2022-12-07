@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.8d29860b.css",
-    "main.js": "/static/js/main.665dbb43.js",
+    "main.js": "/static/js/main.39ebbe29.js",
     "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
     "static/media/bellavita.png": "/static/media/bellavita.7f0a651bc2a6adf9f1f6.png",
     "static/media/MyCV.pdf": "/static/media/MyCV.77a85c88ff282e093bf1.pdf",
     "static/media/fitnessblender.png": "/static/media/fitnessblender.c9266e2dcb1874f6eb27.png",
-    "static/media/undraw_feeling_blue_-4-b7q.svg": "/static/media/undraw_feeling_blue_-4-b7q.25a59af09a15f6b97cdde63a1a137f26.svg",
     "index.html": "/index.html",
     "main.8d29860b.css.map": "/static/css/main.8d29860b.css.map",
-    "main.665dbb43.js.map": "/static/js/main.665dbb43.js.map"
+    "main.39ebbe29.js.map": "/static/js/main.39ebbe29.js.map"
   },
   "entrypoints": [
     "static/css/main.8d29860b.css",
-    "static/js/main.665dbb43.js"
+    "static/js/main.39ebbe29.js"
   ]
 }
