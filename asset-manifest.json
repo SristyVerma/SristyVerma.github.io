@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c3236eec.css",
-    "main.js": "/static/js/main.5320e70b.js",
+    "main.js": "/static/js/main.7b80b79e.js",
     "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
     "static/media/bellavita.png": "/static/media/bellavita.7f0a651bc2a6adf9f1f6.png",
@@ -9,10 +9,10 @@
     "static/media/fitnessblender.png": "/static/media/fitnessblender.c9266e2dcb1874f6eb27.png",
     "index.html": "/index.html",
     "main.c3236eec.css.map": "/static/css/main.c3236eec.css.map",
-    "main.5320e70b.js.map": "/static/js/main.5320e70b.js.map"
+    "main.7b80b79e.js.map": "/static/js/main.7b80b79e.js.map"
   },
   "entrypoints": [
     "static/css/main.c3236eec.css",
-    "static/js/main.5320e70b.js"
+    "static/js/main.7b80b79e.js"
   ]
 }
