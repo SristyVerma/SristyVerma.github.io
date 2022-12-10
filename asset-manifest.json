@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.16526dd0.css",
-    "main.js": "/static/js/main.d70306b1.js",
+    "main.css": "/static/css/main.99125f22.css",
+    "main.js": "/static/js/main.7d829fcc.js",
     "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
     "static/media/Sristy_Verma_Resume.pdf": "/static/media/Sristy_Verma_Resume.4a2993e771d048d023a5.pdf",
     "static/media/bellavita.png": "/static/media/bellavita.7f0a651bc2a6adf9f1f6.png",
     "static/media/fitnessblender.png": "/static/media/fitnessblender.c9266e2dcb1874f6eb27.png",
     "index.html": "/index.html",
-    "main.16526dd0.css.map": "/static/css/main.16526dd0.css.map",
-    "main.d70306b1.js.map": "/static/js/main.d70306b1.js.map"
+    "main.99125f22.css.map": "/static/css/main.99125f22.css.map",
+    "main.7d829fcc.js.map": "/static/js/main.7d829fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.16526dd0.css",
-    "static/js/main.d70306b1.js"
+    "static/css/main.99125f22.css",
+    "static/js/main.7d829fcc.js"
   ]
 }
