@@ -17,9 +17,9 @@ const Skills = () => {
 
   return (
     <>
-      <Reveal>
-        <div className="fake-big">About</div>
-      </Reveal>
+      {/* <Reveal>
+        <div className="fake-big">Skills</div>
+      </Reveal> */}
       <div className="section-about-wrapper section__padding">
         <article className="section-about-description">
           <div>

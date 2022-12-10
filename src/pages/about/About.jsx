@@ -42,27 +42,25 @@ const About = () => {
             </h2>
             <Fade bottom>
               <p>
-                I’m an ambitious Front-End Developer who's passionate about
-                coding and looking for a role in the established IT company with
+                I’m an ambitious and aspiring Full Stack Web Developer who's passionate about
+                coding and looking for a software developer role in an established organisation with
                 the opportunity to work with the latest technologies on
                 challenging and diverse projects.
               </p>
             </Fade>
             <Fade bottom>
               <p>
-                I’m from Ivory Coast but currently living in Nigeria. I’m a
-                freelancer who loves building cool UI effects, dynamic webpages
-                with amazing animations and creating intuitive, dynamic user
-                experiences. I also love to reach out to new opportunities
-                accross the globe that will enhance my skills and get the
-                opporutinity to work with other programmers as well
+            I am an organised person who believes in continuous learning,
+            improvement and appreciate constructive criticism.I am
+            a calm and compose team player becuase it makes me see same thing in different ways.
+
               </p>
             </Fade>
             <Fade bottom>
               <p>
                 If I could say one of the most interesting things about me, it's
                 the fact that I'm always ready for any challenges that comes to
-                my way. Here's my CV below for more details.
+                my way in a calm and positive mindset. 
               </p>
             </Fade>
            

@@ -45,6 +45,12 @@ const sideBarMenu = [
     icon: <VscProject className="link-icon" />,
     url: '/project',
   },
+  {
+    text: 'Resume',
+    icon: <GrGithub className="link-icon" />,
+    url: '/github',
+  },
+ 
  
   {
     text: 'Contacts',

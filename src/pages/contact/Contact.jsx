@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { BsExclamationLg, BsPatchCheckFill } from 'react-icons/bs'
 import { RiSendPlane2Fill } from 'react-icons/ri'
-// import {  Map } from '../../components'
+import {  Map } from '../../components'
 import { Blast } from '../../components'
 import Fade from 'react-reveal/Fade'
 import Reveal from 'react-reveal/Reveal'
@@ -144,9 +144,8 @@ const Contact = React.memo(() => {
             </h2>
             <Fade bottom>
               <p>
-                I’m interested in freelance opportunities and I am always ready
-                to build projects at anytime, if you have any job offer for me,
-                you could use the form below to react out to me.
+                 
+                You can use the form below to reach out to me.
               </p>
             </Fade>
           </div>
@@ -226,13 +225,13 @@ const Contact = React.memo(() => {
             </button>
           </Fade>
           <Reveal bottom>
-            <footer className="footer">
+            {/* <footer className="footer">
               <p> &copy; copyright All Right Reserved Sristy - 2022</p>
-            </footer>
+            </footer> */}
           </Reveal>
         </form>
         <div className="google-map">
-          {/* <Map /> */}
+          <Map />
         </div>
         <div ref={MessageRef} className="message"></div>
       </section>

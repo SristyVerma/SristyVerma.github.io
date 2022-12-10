@@ -9,6 +9,8 @@ import {
  Skills,
   ProjectPage,
   ErrorPage,
+  GithubCalender,
+ 
 
 } from './pages'
 
@@ -27,6 +29,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/github" element={<GithubCalender />} />
+       
       
         
         <Route path="/project" element={<ProjectPage />} />

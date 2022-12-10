@@ -1,8 +1,10 @@
 import React from 'react'
+
 // components
 import { Header} from '../../components'
 // pages
 import { Contact, About, ProjectPage,Skills } from '../../pages'
+import  GithubCalender  from '../GithubCalender/GithubCalender'
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
         <Skills />
       </section>
       <ProjectPage />
-     
+     <GithubCalender/>
       <Contact />
     </>
   )

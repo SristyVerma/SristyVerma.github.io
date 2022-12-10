@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import myCV from '../../assets/images/MyCV.pdf'
+import Sristy_Verma_Resume from '../../assets/images/Sristy_Verma_Resume.pdf'
 import { MdArrowDropDown } from 'react-icons/md'
 import Fade from 'react-reveal/Fade'
 import Logo from '../logoAnimation/Logo'
@@ -41,7 +41,7 @@ const Header = () => {
     <>
       <section className="section-1 header__container section__padding">
         <main className="intro-page">
-          <h1 arial-label="Hi i'm Abdullahi, web Junior full-stack developer">
+          <h1 arial-label="Hi i'm sristy verma, full-stack web developer">
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i</span>
             <span className={`${letterClass} _13`}>,</span>
@@ -74,7 +74,7 @@ const Header = () => {
           <Fade left>
               <a
                 style={{ marginTop: '2rem' }}
-                href={myCV}
+                href={Sristy_Verma_Resume}
                 download
                 className="contact-button submit-button"
               >
