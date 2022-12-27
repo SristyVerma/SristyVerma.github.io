@@ -265,6 +265,9 @@ textarea {
   .contact-section {
     width: 100%;
   }
+  .map-content{
+    display: none;
+  }
 
   .contact__heading {
     font-size: 2rem;

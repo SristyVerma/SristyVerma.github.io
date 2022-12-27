@@ -47,7 +47,7 @@ const sideBarMenu = [
   },
   {
     text: 'Resume',
-    icon: <GrGithub className="link-icon" />,
+    icon: <FiGrid className="link-icon" />,
     url: '/github',
   },
  

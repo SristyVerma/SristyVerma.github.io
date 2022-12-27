@@ -144,6 +144,7 @@
   .scroll__wrapper {
     display: block;
   }
+ 
 }
 
 @keyframes scroll {
@@ -235,6 +236,9 @@
   .section-1 .float-text {
     left: 20vw;
   }
+  img{
+    width:50%;
+  }
 }
 @media screen and (max-width: 450px) {
   .section-1 {
@@ -247,6 +251,9 @@
   }
   .intro-page h1 .home-logo {
     width: 30px;
+    img{
+      width:50%;
+    }
   }
 }
 
@@ -269,5 +276,8 @@
     height: 45px;
     line-height: 45px;
     font-size: 0.95rem;
+  }
+  img{
+    width:50%;
   }
 }
