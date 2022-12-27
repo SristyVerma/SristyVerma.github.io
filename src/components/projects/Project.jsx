@@ -6,10 +6,11 @@ const Project = (props) => {
   const { imgUrl, name, desc, stack, gitHubUrl, website } = props
   return (
     <Fade bottom>
+      <section className=".section__projects-wrapper">
       <section className="section__projects-single-projects">
         <img src={imgUrl} style={{width:"100%",
                 height:"100%",
-                objectFit:"cover"}} alt="" />
+                objectFit:"fill"}} alt="" />
         <div className="section__projects-contents">
           <p>{name}</p>
           <p className="desc">{desc}</p>
@@ -26,6 +27,7 @@ const Project = (props) => {
             </a>
           </div>
         </div>
+      </section>
       </section>
     </Fade>
   )

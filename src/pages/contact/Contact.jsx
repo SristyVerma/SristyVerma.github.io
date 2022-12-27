@@ -230,11 +230,13 @@ const Contact = React.memo(() => {
             </footer> */}
           </Reveal>
         </form>
-        <div className="google-map">
-          <Map />
-        </div>
+     
         <div ref={MessageRef} className="message"></div>
+        {/* <div className="google-map"> */}
+          <Map />
+        {/* </div> */}
       </section>
+      
     </>
   )
 })

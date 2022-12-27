@@ -4,7 +4,7 @@ import React from 'react'
 const Map = () => {
   return (
     
-    <div className="map-content">
+    <div className="map-content" >
       <h3 className="switch__color">Sristy Verma</h3>
       <span>Full Stack Web Developer</span>
       <br />
