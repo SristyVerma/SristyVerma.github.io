@@ -16,7 +16,7 @@ const About = () => {
   }, [])
 
   return (
-    <>
+    <div id="about" className="about section">
       <Reveal>
         <div className="fake-big">About</div>
       </Reveal>
@@ -70,7 +70,7 @@ const About = () => {
         {/* programming language cards */}
        
       </div>
-    </>
+    </div>
   )
 }
 

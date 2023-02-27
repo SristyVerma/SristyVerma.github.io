@@ -131,7 +131,7 @@ const Contact = React.memo(() => {
 
   return (
     <>
-      <section className="contact-section">
+      <section className="contact-section"  id="contact">
         <div className="fake-big">@</div>
         <form ref={form} className="contact-form" onSubmit={onSubmit}>
           <div>

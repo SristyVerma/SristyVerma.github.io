@@ -6,7 +6,7 @@ const Project = (props) => {
   const { imgUrl, name, desc, stack, gitHubUrl, website } = props
   return (
     <Fade bottom>
-      <section className=".section__projects-wrapper">
+      <section className=".section__projects-wrapper" id="projects">
       <section className="section__projects-single-projects">
         <img src={imgUrl} style={{width:"100%",
                 height:"100%",

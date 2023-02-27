@@ -20,7 +20,7 @@ const Skills = () => {
       {/* <Reveal>
         <div className="fake-big">Skills</div>
       </Reveal> */}
-      <div className="section-about-wrapper section__padding">
+      <div className="section-about-wrapper section__padding"  id="skills">
         <article className="section-about-description">
           <div>
             <h2 arial-aria-label="About and skills">

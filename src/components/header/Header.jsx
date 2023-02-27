@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="section-1 header__container section__padding">
+      <section className="section-1 header__container section__padding" >
         <main className="intro-page">
           <h1 arial-label="Hi i'm sristy verma, full-stack web developer">
             <span className={letterClass}>H</span>

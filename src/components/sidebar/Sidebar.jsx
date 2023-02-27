@@ -16,7 +16,7 @@ const Sidebar = React.memo(() => {
   const [state, dispatch] = useReducer(reducer, defaultOptions)
   return (
     <>
-      <BsListNested
+      <BsListNested id="nav-menu"
         onClick={() => dispatch({ type: 'OPEN_NAVBAR' })}
         className="menu-icon switch__color"
       />

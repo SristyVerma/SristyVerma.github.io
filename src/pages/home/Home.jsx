@@ -8,7 +8,8 @@ import  GithubCalender  from '../GithubCalender/GithubCalender'
 
 const Home = () => {
   return (
-    <>
+    <div  id="home">
+
       <Header />
       <section className="section-about">
         <About />
@@ -17,7 +18,7 @@ const Home = () => {
       <ProjectPage />
      <GithubCalender/>
       <Contact />
-    </>
+    </div>
   )
 }
 
