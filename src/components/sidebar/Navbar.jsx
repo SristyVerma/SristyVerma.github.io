@@ -71,9 +71,9 @@ const Navbar = React.memo(() => {
           
           <div className="social-icon">
             {socialIcons.map((icons, index) => {
-              const { icon, url } = icons
+              const { icon, url ,id} = icons
               return (
-                <a href={url} key={index}>
+                <a href={url} key={index} id={id}>
                   {icon}
                 </a>
               )

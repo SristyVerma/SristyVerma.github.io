@@ -52,7 +52,7 @@ const handleClick=()=>{
             <span className={`${letterClass} _15`}>’</span>
             <span className={`${letterClass} _16`}>m</span> {''}
             <br/>
-            <Blast
+            <Blast  id="user-detail-name"
               letterClass={letterClass}
               arrayStr={nameArray}
               indexLetter={15}

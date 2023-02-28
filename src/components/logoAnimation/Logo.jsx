@@ -15,7 +15,7 @@ const Logo = () => {
     <div className="logo-container">
     
       
-      <img className='solid-logo' src={logo} alt="ntfound"/>
+      <img className='solid-logo home-img'  src={logo} alt="ntfound"/>
   
     </div>
   )

@@ -8,21 +8,21 @@ const Project = (props) => {
     <Fade bottom>
       <section className=".section__projects-wrapper" id="projects">
       <section className="section__projects-single-projects">
-        <img src={imgUrl} style={{width:"100%",
+        <img src={imgUrl} className="project-image" style={{width:"100%",
                 height:"100%",
                 objectFit:"fill"}} alt="" />
         <div className="section__projects-contents">
-          <p>{name}</p>
-          <p className="desc">{desc}</p>
+          <p className="project-title">{name}</p>
+          <p className="desc project-description">{desc}</p>
           <div className="section__projects-stack">
             <h2>Built with</h2>
-            <span>{stack}</span>
+            <span className="project-tech-stack">{stack}</span>
           </div>
           <div className="section__projects-icon">
-            <a href={gitHubUrl.url} className="switch__color">
+            <a href={gitHubUrl.url} className="switch__color project-github-link">
               {gitHubUrl.icon}
             </a>
-            <a href={website.url} className="switch__color">
+            <a href={website.url} className="switch__color project-deployed-link">
               {website.icon}
             </a>
           </div>

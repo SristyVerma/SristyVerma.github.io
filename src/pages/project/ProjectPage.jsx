@@ -35,7 +35,7 @@ const ProjectPage = () => {
       </div>
       <div className="section__projects-wrapper">
         {projects.map((project, index) => {
-          return <Project {...project} key={index} />
+          return <Project {...project} key={index} className="project-card" />
         })}
       </div>
     </section>

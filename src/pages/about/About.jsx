@@ -41,7 +41,7 @@ const About = () => {
               />
             </h2>
             <Fade bottom>
-              <p>
+              <p id="user-detail-intro">
                 I’m an ambitious and aspiring Full Stack Web Developer who's passionate about
                 coding and looking for a software developer role in an established organisation with
                 the opportunity to work with the latest technologies on

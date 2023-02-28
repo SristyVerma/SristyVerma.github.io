@@ -65,6 +65,7 @@ const socialIcons = [
   {
     icon: <GrGithub className="icon switch__color" />,
     url: 'https://github.com/SristyVerma',
+    id:"contact-github"
   },
  
   // {
@@ -78,6 +79,7 @@ const socialIcons = [
   {
     icon: <FiLinkedin className="icon switch__color" />,
     url: 'https://www.linkedin.com/in/sristy-verma/',
+    id:'contact-linkedin'
   },
 ]
 // programming lanuages (spanText), icons and url
