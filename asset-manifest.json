@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7d2bde86.css",
-    "main.js": "/static/js/main.d12b2554.js",
+    "main.js": "/static/js/main.b40a4a39.js",
     "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
     "static/media/Sristy_Verma_Resume.pdf": "/static/media/Sristy_Verma_Resume.4a2993e771d048d023a5.pdf",
@@ -10,10 +10,10 @@
     "static/media/logo.jpeg": "/static/media/logo.33d472084fbf93bb8b5e.jpeg",
     "index.html": "/index.html",
     "main.7d2bde86.css.map": "/static/css/main.7d2bde86.css.map",
-    "main.d12b2554.js.map": "/static/js/main.d12b2554.js.map"
+    "main.b40a4a39.js.map": "/static/js/main.b40a4a39.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2bde86.css",
-    "static/js/main.d12b2554.js"
+    "static/js/main.b40a4a39.js"
   ]
 }
