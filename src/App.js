@@ -15,14 +15,14 @@ import {
 } from './pages'
 
 // components
-import { Sidebar, ThemeTemplate } from './components'
+import { Navbar, ThemeTemplate } from './components'
 
 import './utils/templateColors.scss'
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Sidebar />
+      <Navbar />
       <ThemeTemplate />
       <Routes>
         <Route path="/" element={<Home />} />

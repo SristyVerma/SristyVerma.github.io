@@ -29,7 +29,9 @@ const jobArray = [
 
 const Header = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-
+const handleClick=()=>{
+  window.open("https://drive.google.com/file/d/1fGbCicSELrReyNanrNUlBqjFIDWQzg9x/view?usp=share_link")
+}
 
   React.useEffect(() => {
     setTimeout(() => {
@@ -78,7 +80,7 @@ const Header = () => {
                 download
                 className="contact-button submit-button"
               >
-                <div>
+                <div onClick={handleClick}>
                   <span className="bg switch__bg"></span>
                   <span className="base switch__border-color"></span>
                   <span className="text">RESUME</span>

@@ -11,9 +11,10 @@ const defaultOptions = {
   openCloseNav1: false,
 }
 
-const Sidebar = React.memo(() => {
+const Navbar = React.memo(() => {
   // dispatch reducer functionality
   const [state, dispatch] = useReducer(reducer, defaultOptions)
+  
   return (
     <>
       <BsListNested id="nav-menu"
@@ -63,9 +64,11 @@ const Sidebar = React.memo(() => {
                     {text}
                   </NavLink>
                 </li>
+                
               )
             })}
           </ul>
+          
           <div className="social-icon">
             {socialIcons.map((icons, index) => {
               const { icon, url } = icons
@@ -82,4 +85,4 @@ const Sidebar = React.memo(() => {
   )
 })
 
-export default Sidebar
+export default Navbar

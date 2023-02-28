@@ -1,17 +1,21 @@
 import Fade from 'react-reveal/Fade'
-
+import Sristy_Verma_Resume from '../../assets/images/Sristy_Verma_Resume.pdf'
 import '../../components/header/header.scss'
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 import './GithubCalender.css'
-import Sristy_Verma_Resume from '../../assets/images/Sristy_Verma_Resume.pdf'
+
 
 // import Reveal from 'react-reveal/Reveal'
 
 import { Blast } from '../../components'
 import '../about/about.scss'
  const GithubCalender = () => {
+  const handleClick=()=>{
+    window.open("https://drive.google.com/file/d/1fGbCicSELrReyNanrNUlBqjFIDWQzg9x/view?usp=share_link")
+  }
+  
   const [letterClass, setLetterClass] = React.useState('text-animate')
   React.useEffect(() => {
     setTimeout(() => {
@@ -75,7 +79,7 @@ import '../about/about.scss'
         </div>
       </article>
        {selectLastHalfYear ? (
-          <GitHubCalendar
+          <GitHubCalendar className="react-activity-calendar"
             username="sristyverma"
             transformData={selectLastHalfYear}
             blockMargin={5}
@@ -99,7 +103,7 @@ import '../about/about.scss'
         <br/>
         
                 <div style={{display:"flex",flexDirection:"row",gap:"0px"}}>
-                <img
+                <img id="github-streak-stats"
             
             src="https://github-readme-streak-stats.herokuapp.com/?user=sristyverma&theme=black"
             alt="sristyverma"
@@ -108,17 +112,17 @@ import '../about/about.scss'
       
         
        
-          <img className='change'
+          <img className='change' id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=sristyverma&show_icons=true&locale=en&theme=black"
             alt="sristyverma"
           />
                 </div>
  <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sristyverma&show_icons=true&locale=en&layout=compact&theme=grey"
+<img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs?username=sristyverma&show_icons=true&locale=en&layout=compact&theme=grey"
                           alt="sristyverma"
                         />
-             <Fade left>
+             {/* <Fade left>
               <a
                 style={{ marginTop: '2rem' }}
                 href={Sristy_Verma_Resume}
@@ -132,7 +136,21 @@ import '../about/about.scss'
                   <span className="text">RESUME</span>
                 </div>
               </a>
-            </Fade>          
+            </Fade>           */}
+             <Fade left>
+              <a
+                style={{ marginTop: '2rem' }}
+                href={Sristy_Verma_Resume}
+                download
+                className="contact-button submit-button"
+              >
+                <div onClick={handleClick}>
+                  <span className="bg switch__bg"></span>
+                  <span className="base switch__border-color"></span>
+                  <span className="text">RESUME</span>
+                </div>
+              </a>
+            </Fade>
     </div>
   
   </>

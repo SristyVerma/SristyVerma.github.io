@@ -1,4 +1,4 @@
-export { default as Sidebar } from './sidebar/Sidebar'
+export { default as Navbar } from './sidebar/Navbar'
 export { default as Header } from './header/Header'
 export { default as ThemeTemplate } from './ThemingTemplate/ThemeTemplates'
 export { default as Blast } from './BlastAnimation/Blast'
