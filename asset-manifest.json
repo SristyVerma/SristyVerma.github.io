@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7d2bde86.css",
-    "main.js": "/static/js/main.0d6643b0.js",
+    "main.js": "/static/js/main.7aeb54ea.js",
     "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
     "static/media/Sristy_Verma_Resume.pdf": "/static/media/Sristy_Verma_Resume.4a2993e771d048d023a5.pdf",
     "static/media/bellavita.png": "/static/media/bellavita.7f0a651bc2a6adf9f1f6.png",
     "static/media/fitnessblender.png": "/static/media/fitnessblender.c9266e2dcb1874f6eb27.png",
+    "static/media/logo.jpeg": "/static/media/logo.33d472084fbf93bb8b5e.jpeg",
     "index.html": "/index.html",
     "main.7d2bde86.css.map": "/static/css/main.7d2bde86.css.map",
-    "main.0d6643b0.js.map": "/static/js/main.0d6643b0.js.map"
+    "main.7aeb54ea.js.map": "/static/js/main.7aeb54ea.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2bde86.css",
-    "static/js/main.0d6643b0.js"
+    "static/js/main.7aeb54ea.js"
   ]
 }
