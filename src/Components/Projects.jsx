@@ -7,16 +7,16 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import img1 from "./imges/img1.jpg";
-import clickcart from "./imges/Click-Cart.png";
-import bellavita from "./imges/bellavita.png";
-import fathom from "./imges/fathom.png";
+import img1 from "./images/img1.jpg";
+import clickcart from "./images/Click-Cart.png";
+import bellavita from "./images/bellavita.png";
+import fathom from "./images/fathom.png";
 import { LinkIcon } from "@chakra-ui/icons";
 import { FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import style from "../Components/Projects/Project.module.css";
-import chakra from "./imges/chakra.png";
+import chakra from "./images/chakra.png";
 AOS.init();
 
 function Projects() {

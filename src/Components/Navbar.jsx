@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import style from "././Navbar/Navbar.module.css";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 import Hamburger from "././Navbar/Hamburger";
-import resume from "./imges//Sristy_Verma_Resume.pdf"
+import resume from "./images//Sristy_Verma_Resume.pdf"
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
   }
 
   const Handleonclick=()=>{
-    window.open(`${resume}`);
+    window.open("https://drive.google.com/file/d/1fGbCicSELrReyNanrNUlBqjFIDWQzg9x/view?usp=share_link");
    }
 
   return (
@@ -62,12 +62,13 @@ function Navbar() {
           </Link>
         </li>
         <li border="1px solid #36f488" bg={"#6a6a6a"} className="nav-link resume" >
-        <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick} >
-          <button   className={style.resumeButton} border="1px solid #36f488">
+       
+          <button   className={style.resumeButton} border="1px solid #36f488"id="resume-button-1">
+          <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick}  id="resume-link-1">
             <DownloadIcon bg={"#6a6a6a"} />
-            Resume
+            Resume </a>
           </button>
-        </a>
+       
         </li>
 
       </div>

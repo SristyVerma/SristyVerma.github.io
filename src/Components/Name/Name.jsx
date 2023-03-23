@@ -1,16 +1,16 @@
 import React from "react";
 import style from "./Name.module.css";
-import img from "../imges/Sris.jpeg";
+import img from "../images/Sris.jpeg";
 import { DownloadIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
-import resume from "../imges/Sristy_Verma_Resume.pdf";
-
+import resume from "../images/Sristy_Verma_Resume.pdf";
+import HandleOnClick from '../HandleOnClick'
 
 function Name() {
 
-  const Handleonclick=()=>{
-    window.open(`${resume}`);
-   }
+  // const Handleonclick=()=>{
+  //   window.open("https://drive.google.com/file/d/1fGbCicSELrReyNanrNUlBqjFIDWQzg9x/view?usp=share_link");
+  //  }
 
   return (
     <div className={style.name}  id="home">
@@ -32,13 +32,13 @@ function Name() {
       </div>
       <div className={style.resume} >
        
-        <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick}  id="resume-link-2">
+       
           <button className={style.resumeButton} id="resume-button-2"
- >
+ > <a href={resume} download="Sristy_Verma_Resume"  onClick={HandleOnClick}  id="resume-link-2">
             <DownloadIcon bg={"transparent"} />
-            RESUME
+            RESUME</a>
           </button>
-        </a>
+        
       </div>
     </div>
   );

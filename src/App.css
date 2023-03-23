@@ -6,7 +6,7 @@
     --primary:#36f588 ;
   }
   .image-container1{   
-    background-image: url("../src/Components/imges/man2.jpg");
+    background-image: url("../src/Components/images/man2.jpg");
     background-size: cover;
   }
   .image-container1 > img{
@@ -20,7 +20,7 @@
   }
   
   .image-container2{   
-    background-image: url("../src/Components/imges/bellavita2.png");
+    background-image: url("../src/Components/images/bellavita2.png");
     background-size: cover;
   }
   .image-container2 > img{
@@ -34,7 +34,7 @@
   }
   
   .image-container3{   
-    background-image: url("../src/Components/imges/fathom2.png");
+    background-image: url("../src/Components/images/fathom2.png");
     background-size: cover;
   }
   .image-container3 > img{
@@ -48,7 +48,7 @@
   }
   
   .image-container4{   
-    background-image: url("../src/Components/imges/clickcart2.png");
+    background-image: url("../src/Components/images/clickcart2.png");
     background-size: cover;
   }
   .image-container4 > img{

@@ -13,7 +13,7 @@ function AboutMe() {
 
 I am an organised person who believes in continuous learning, improvement and appreciate constructive criticism.I am a calm and compose team player becuase it makes me see same thing in different ways.
 
-If I could say one of the most interesting things about me, it's the fact that I'm always ready for any challenges that comes to my way in a calm and positive mindset.
+If I could say one of the most interesting things about me, it's the fact that I'm always ready for any challenges that comes to my way in a calm and positive mindset.I have dono many projects usinG HTML,CSS,Javascript,React,Redux,NodeJS,Express,Typescript.
         </p>
         <Coding />
       </div>
