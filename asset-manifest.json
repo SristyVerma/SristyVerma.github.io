@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d2bde86.css",
-    "main.js": "/static/js/main.44bae468.js",
-    "static/media/kindmeal.png": "/static/media/kindmeal.f3ed1eff8cb37cb87bb3.png",
+    "main.css": "/static/css/main.6fe1d5f5.css",
+    "main.js": "/static/js/main.1bb7a079.js",
     "static/media/fathom.png": "/static/media/fathom.2614129acc3e1015fa5b.png",
+    "static/media/Click-Cart.png": "/static/media/Click-Cart.7b95a9d3c784327def1f.png",
     "static/media/Sristy_Verma_Resume.pdf": "/static/media/Sristy_Verma_Resume.4a2993e771d048d023a5.pdf",
+    "static/media/img1.jpg": "/static/media/img1.6bb664014b5cb23c8c63.jpg",
+    "static/media/bellavita2.png": "/static/media/bellavita2.6d115f1a1ed9a7cbbb62.png",
+    "static/media/clickcart2.png": "/static/media/clickcart2.49a4e7438bf65aaf74bb.png",
     "static/media/bellavita.png": "/static/media/bellavita.7f0a651bc2a6adf9f1f6.png",
-    "static/media/fitnessblender.png": "/static/media/fitnessblender.c9266e2dcb1874f6eb27.png",
-    "static/media/logo.jpeg": "/static/media/logo.33d472084fbf93bb8b5e.jpeg",
+    "static/media/man2.jpg": "/static/media/man2.91e54addee2e972ab7dc.jpg",
+    "static/media/Sris.jpeg": "/static/media/Sris.30ee7970be9442c6a987.jpeg",
+    "static/media/chakra.png": "/static/media/chakra.7faa7025d019f1ad3b2b.png",
+    "static/media/fathom2.png": "/static/media/fathom2.1e804ddd88ceb14781b4.png",
     "index.html": "/index.html",
-    "main.7d2bde86.css.map": "/static/css/main.7d2bde86.css.map",
-    "main.44bae468.js.map": "/static/js/main.44bae468.js.map"
+    "main.6fe1d5f5.css.map": "/static/css/main.6fe1d5f5.css.map",
+    "main.1bb7a079.js.map": "/static/js/main.1bb7a079.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2bde86.css",
-    "static/js/main.44bae468.js"
+    "static/css/main.6fe1d5f5.css",
+    "static/js/main.1bb7a079.js"
   ]
 }
