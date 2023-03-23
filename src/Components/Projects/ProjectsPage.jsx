@@ -21,7 +21,7 @@ AOS.init();
 
 function ProjectPage() {
   return (
-    <Stack id="project" p={[2, 10]}>
+    <Stack id="projects" p={[2, 10]}>
       <SimpleGrid columns={[1, 1, 2, 2]} justifyContent={"space-between"}>
       <VStack 
           className="projectContainer project-card"
