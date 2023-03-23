@@ -70,19 +70,19 @@ function ContactMe() {
         </div>
         <div>
           <EmailIcon />
-          <span>sristyel2016@gmail.com</span>
+          <span  id="contact-email">sristyel2016@gmail.com</span>
         </div>
         <div>
           <PhoneIcon />
-          <span>+91 7905704385</span>
+          <span id="contact-phone">+91 7905704385</span>
         </div>
         <div className={style.social}>
-          <a target="_blank"  rel="noreferrer" href="https://github.com/sristyverma">
+          <a id="contact-github" target="_blank"  rel="noreferrer" href="https://github.com/sristyverma">
             <i style={{ fontSize: "30px", color: "white" }}>
               <BsGithub />
             </i>
           </a>
-          <a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/sristy-verma/">
+          <a id="contact-linkedin" target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/sristy-verma/" >
             <i style={{ fontSize: "30px", color: "white" }}>
               <BsLinkedin />
             </i>

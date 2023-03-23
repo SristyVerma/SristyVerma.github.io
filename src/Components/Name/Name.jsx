@@ -15,7 +15,7 @@ function Name() {
   return (
     <div className={style.name}  id="home">
       <p>
-        Hi! I am <span>Sristy Verma</span>{" "}
+        Hi! I am <span id="user-detail-name">Sristy Verma</span>{" "}
       </p>
       <p>
         <Typewriter
