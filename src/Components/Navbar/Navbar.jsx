@@ -30,27 +30,27 @@ function Navbar() {
         </p>
       </div>
       <div className={style.menus}>
-        <li>
+        <li className="nav-link home">
           <Link to="name" spy={true} smooth={true} offset={0} duration={700}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="nav-link about">
           <Link to="about" spy={true} smooth={true} offset={0} duration={700}>
             About
           </Link>
         </li>
-        <li>
+        <li className="nav-link skills">
           <Link to="skill" spy={true} smooth={true} offset={0} duration={700}>
             Skill
           </Link>
         </li>
-        <li>
+        <li className="nav-link projects">
           <Link to="project" spy={true} smooth={true} offset={0} duration={700}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="nav-link contact">
           <Link
             to="contactMe"
             spy={true}
@@ -61,7 +61,7 @@ function Navbar() {
             Contact
           </Link>
         </li>
-        <li border="1px solid #36f488" bg={"#6a6a6a"}  >
+        <li border="1px solid #36f488" bg={"#6a6a6a"} className="nav-link resume" >
         <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick} >
           <button   className={style.resumeButton} border="1px solid #36f488">
             <DownloadIcon bg={"#6a6a6a"} />
