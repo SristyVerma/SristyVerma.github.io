@@ -19,8 +19,10 @@ import style from "./Project.module.css";
 import chakra from "../imges/chakra.png";
 AOS.init();
 
-function ProjectPage() {
+function Projects() {
   return (
+    <div  className={style.project}>
+      <div>Projects</div>
     <Stack id="projects" p={[2, 10]}>
       <SimpleGrid columns={[1, 1, 2, 2]} justifyContent={"space-between"}>
       <VStack 
@@ -296,8 +298,8 @@ function ProjectPage() {
           </HStack>{" "}
         </VStack>
       </SimpleGrid>
-    </Stack>
+    </Stack></div>
   );
 }
 
-export default ProjectPage;
+export default Projects;

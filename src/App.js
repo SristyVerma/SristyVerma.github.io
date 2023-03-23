@@ -3,7 +3,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Name from './Components/Name/Name';
 import Navbar from './Components/Navbar';
 import Skills from './Components/Skills/Skills';
-import Projects from './Components/Projects/Projects';
+import Projects from './Components/Projects/ProjectsPage';
 import ContactMe from './Components/ContactMe/ContactMe';
 import Calendar from './Components/GitHub/Calendar';
 
