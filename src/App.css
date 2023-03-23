@@ -1,0 +1,64 @@
+.App{
+    background: #1B1B1B;
+    color: white;
+  }
+  :root{
+    --primary:#36f588 ;
+  }
+  .image-container1{   
+    background-image: url("../src/Components/imges/man2.jpg");
+    background-size: cover;
+  }
+  .image-container1 > img{
+    width:100%;
+    display:block;
+    transition: opacity 1s ease;
+  }
+  
+  .image-container1:hover img{
+    opacity: 0;
+  }
+  
+  .image-container2{   
+    background-image: url("../src/Components/imges/bellavita2.png");
+    background-size: cover;
+  }
+  .image-container2 > img{
+    width:100%;
+    display:block;
+    transition: opacity 1s ease;
+  }
+  
+  .image-container2:hover img{
+    opacity: 0;
+  }
+  
+  .image-container3{   
+    background-image: url("../src/Components/imges/fathom2.png");
+    background-size: cover;
+  }
+  .image-container3 > img{
+    width:100%;
+    display:block;
+    transition: opacity 1s ease;
+  }
+  
+  .image-container3:hover img{
+    opacity: 0;
+  }
+  
+  .image-container4{   
+    background-image: url("../src/Components/imges/clickcart2.png");
+    background-size: cover;
+  }
+  .image-container4 > img{
+    width:100%;
+    display:block;
+    transition: opacity 1s ease;
+  }
+  
+  .image-container4:hover img{
+    opacity: 0;
+  }
+  
+  

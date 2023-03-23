@@ -1,44 +1,27 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Name from './Components/Name/Name';
+import Navbar from './Components/Navbar/Navbar';
+import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
+import ContactMe from './Components/ContactMe/ContactMe';
+import Calendar from './Components/GitHub/Calendar';
 
-// pages
-import {
-  Home,
-  About,
-  Contact,
- Skills,
-  ProjectPage,
-  ErrorPage,
-  GithubCalender,
- 
 
-} from './pages'
 
-// components
-import { Navbar, ThemeTemplate } from './components'
 
-import './utils/templateColors.scss'
-
-const App = () => {
+function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <ThemeTemplate />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/github" element={<GithubCalender />} />
-       
-      
-        
-        <Route path="/project" element={<ProjectPage />} />
-   
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </BrowserRouter>
-  )
+    <div className="App">
+      <Navbar/>
+      <Name />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Calendar/>
+      <ContactMe />
+    </div>
+  );
 }
 
-export default App
+export default App;
