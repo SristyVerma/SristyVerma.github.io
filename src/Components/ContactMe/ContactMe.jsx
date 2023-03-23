@@ -5,7 +5,6 @@ import { Box, Input, Textarea, useToast } from "@chakra-ui/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BsGithub, BsLinkedin, 
-  // BsInstagram 
 } from "react-icons/bs";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
