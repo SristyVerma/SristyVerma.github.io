@@ -4,7 +4,7 @@ import ProjectPage from "./ProjectsPage";
 
 function Projects() {
   return (
-    <div id="projects" className={style.project}>
+    <div  className={style.project}>
       <div>Projects</div>
       <ProjectPage />
     </div>
