@@ -33,7 +33,7 @@ function ProjectPage() {
           borderRadius="25px"
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
-          <Text align="left" fontSize="2xl" fontWeight="semibold">
+          <Text align="left" fontSize="2xl" fontWeight="semibold" className='project-title'>
             Zara.com
           </Text>
           <Box className="image-container1">
@@ -98,7 +98,7 @@ function ProjectPage() {
           borderRadius="25px"
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
-          <Text fontSize="2xl" fontWeight="semibold">
+          <Text fontSize="2xl" fontWeight="semibold" className='project-title'>
            Click-Cart.com
           </Text>
           <Box className="image-container4">
@@ -185,7 +185,7 @@ function ProjectPage() {
           borderRadius="25px"
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
-          <Text fontSize="2xl" fontWeight="semibold">
+          <Text fontSize="2xl" fontWeight="semibold" className='project-title'>
             bellavitaorganic.com
           </Text>
           <Box className="image-container2">
@@ -246,7 +246,7 @@ function ProjectPage() {
           borderRadius="25px"
           boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
         >
-          <Text fontSize="2xl" fontWeight="semibold">
+          <Text fontSize="2xl" fontWeight="semibold" className='project-title'>
             fathomhealth.com
           </Text>
           <Box className="image-container3">
