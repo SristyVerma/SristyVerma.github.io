@@ -5,8 +5,8 @@ function AboutMe() {
   return (
     <>
     <div className="about section" id="about">
-    <div className={style.header} id="about.about.section">About <span style={{color:"#36f588"}}>me</span></div>
-      <div className={style.aboutme}  >
+    <div className={style.header} >About <span style={{color:"#36f588"}}>me</span></div>
+      <div className={style.aboutme} id="about.about.section" >
         <p>Hi, I’m Sristy Verma</p>
         <p id="user-detail-intro">
           I an ambitious and aspiring Full Stack Web Developer who's passionate about coding and looking for a software developer role in an established organisation with the opportunity to work with the latest technologies on challenging and diverse projects.
