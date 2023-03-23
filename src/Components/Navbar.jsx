@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import style from "././Navbar/Navbar.module.css";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 import Hamburger from "././Navbar/Hamburger";
-import resume from "../imges/Sristy_Verma_Resume.pdf"
+import resume from "./imges//Sristy_Verma_Resume.pdf"
 import { Link } from "react-scroll";
 
 function Navbar() {
