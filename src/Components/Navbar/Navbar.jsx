@@ -31,7 +31,7 @@ function Navbar() {
       </div>
       <div className={style.menus}>
         <li className="nav-link home">
-          <Link to="name" spy={true} smooth={true} offset={0} duration={700}>
+          <Link to="home" spy={true} smooth={true} offset={0} duration={700}>
             Home
           </Link>
         </li>
@@ -41,18 +41,18 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-link skills">
-          <Link to="skill" spy={true} smooth={true} offset={0} duration={700}>
+          <Link to="skills" spy={true} smooth={true} offset={0} duration={700}>
             Skill
           </Link>
         </li>
         <li className="nav-link projects">
-          <Link to="project" spy={true} smooth={true} offset={0} duration={700}>
+          <Link to="projects" spy={true} smooth={true} offset={0} duration={700}>
             Projects
           </Link>
         </li>
         <li className="nav-link contact">
           <Link
-            to="contactMe"
+            to="contact"
             spy={true}
             smooth={true}
             offset={0}

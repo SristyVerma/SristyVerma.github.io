@@ -28,12 +28,13 @@ function Name() {
       </p>
 
       <div className={style.avatar} style={{height:"100%"}}>
-        <img src={img} alt="avatar" />
+        <img src={img} alt="avatar"  className="home-img"/>
       </div>
       <div className={style.resume} >
        
-        <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick}>
-          <button className={style.resumeButton}  >
+        <a href={resume} download="Sristy_Verma_Resume"  onClick={Handleonclick}  id="resume-link-2">
+          <button className={style.resumeButton} id="resume-button-2"
+ >
             <DownloadIcon bg={"transparent"} />
             RESUME
           </button>

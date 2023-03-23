@@ -72,7 +72,7 @@ function Skills() {
             Front-<span>end</span> Development
           </p>
           <SimpleGrid
-            className={style.grid}
+            className={`${style.grid} skills-card`}
             columns={[2]}
             spacing={10}
             // border="1px solid black"
@@ -97,8 +97,8 @@ function Skills() {
                       gap: "10px",
                     }}
                   >
-                    <img src={item.img} alt={item.img} width="35px" />
-                    <p>{item.name}</p>
+                    <img src={item.img} alt={item.img} width="35px" className="skills-card-img"/>
+                    <p className="skills-card-name">{item.name}</p>
                   </div>
                 </div>
               );
@@ -110,7 +110,7 @@ function Skills() {
             Back-<span>end</span> Development
           </p>
           <SimpleGrid
-            className={style.grid}
+            className={`${style.grid} skills-card`}
             columns={[2]}
             spacing={10}
             // border="1px solid black"
@@ -135,8 +135,8 @@ function Skills() {
                       gap: "10px",
                     }}
                   >
-                    <img src={item.img} alt={item.img} width="35px" />
-                    <p>{item.name}</p>
+                    <img src={item.img} alt={item.img} width="35px" className="skills-card-img"/>
+                    <p className="skills-card-name">{item.name}</p>
                   </div>
                 </div>
               );
