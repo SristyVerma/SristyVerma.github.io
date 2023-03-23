@@ -7,23 +7,23 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import img1 from "../imges/img1.jpg";
-import clickcart from "../imges/Click-Cart.png";
-import bellavita from "../imges/bellavita.png";
-import fathom from "../imges/fathom.png";
+import img1 from "./imges/img1.jpg";
+import clickcart from "./imges/Click-Cart.png";
+import bellavita from "./imges/bellavita.png";
+import fathom from "./imges/fathom.png";
 import { LinkIcon } from "@chakra-ui/icons";
 import { FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import style from "./Project.module.css";
-import chakra from "../imges/chakra.png";
+import style from "../Components/Projects/Project.module.css";
+import chakra from "./imges/chakra.png";
 AOS.init();
 
 function Projects() {
   return (
-    <div  className={style.project}>
+    <div  className={style.project} id="projects">
       <div>Projects</div>
-    <Stack id="projects" p={[2, 10]}>
+    <Stack  p={[2, 10]}>
       <SimpleGrid columns={[1, 1, 2, 2]} justifyContent={"space-between"}>
       <VStack 
           className="projectContainer project-card"
