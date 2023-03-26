@@ -9,7 +9,7 @@ function AboutMe() {
       <div className={style.aboutme} id="about.about.section" >
         <p>Hi, I’m Sristy Verma</p>
         <p id="user-detail-intro">
-          I an ambitious and aspiring Full Stack Web Developer who's passionate about coding and looking for a software developer role in an established organisation on challenging and diverse projects.I am an organised person who believes in continuous learning, improvement and appreciate constructive criticism.I am a calm and compose team player becuase it makes me look same thing in different ways.I'm always ready for any challenges that comes to my way in a calm and positive mindset.I have dono many projects using HTML,CSS,Javascript,React,Redux,NodeJS,Express,Typescript.
+        "I'm an ambitious Full Stack Web Developer passionate about coding and seeking a software developer role. I value continuous learning, improvement, and constructive criticism. As a calm and composed team player, I embrace challenges with a positive mindset. My skills include HTML, CSS, JavaScript, React, Redux, NodeJS, Express, and Typescript."
         </p>
         <Coding />
       </div>

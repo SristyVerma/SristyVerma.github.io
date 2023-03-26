@@ -86,11 +86,6 @@ function ContactMe() {
               <BsLinkedin />
             </i>
           </a>
-          {/* <a target="_blank"  rel="noreferrer" href="https://www.instagram.com/rj_raj.kumar/">
-            <i style={{ fontSize: "30px", color: "white" }}>
-            <BsInstagram />
-            </i>
-          </a> */}
         </div>
       </div>
       <div
