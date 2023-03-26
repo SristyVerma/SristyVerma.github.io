@@ -86,6 +86,11 @@ function ContactMe() {
               <BsLinkedin />
             </i>
           </a>
+          {/* <a id="contact-instagram" target="_blank"  rel="noreferrer" href="https://www.instagram.com/dreamlicious_10" >
+            <i style={{ fontSize: "30px", color: "white" }}>
+              <BsInstagram />
+            </i>
+          </a> */}
         </div>
       </div>
       <div
