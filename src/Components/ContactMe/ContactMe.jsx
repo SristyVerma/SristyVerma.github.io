@@ -31,10 +31,10 @@ function ContactMe() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.send(
-      'service_sc2yk5a',
-      'template_i5u5h7i',
+      'service_xq9u1i9',
+      'template_bvu6u7r',
       toSend,
-      'mpbieCyoUOjjbPmt'
+      'bK0_q8XntuCDZiK-4'
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);

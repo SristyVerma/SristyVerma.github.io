@@ -17,7 +17,7 @@ function Navbar() {
    }
 
   return (
-    <div className={style.navbar}  id="nav-menu">
+    <div className={style.navbar}  id="nav-menu" >
       <div className={style.logo}>
         <p >
           {" "}

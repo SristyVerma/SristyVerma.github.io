@@ -34,7 +34,7 @@ export default function Hamburger({ isOpen, setOpen }) {
 
           <DrawerBody padding="40px" bg={"#1B1B1B"} color="#36f588">
             <div className={style.hamburger}>
-              <a href="#name">
+              <a href="#home">
                 <div onClick={() => onClose()}>
                   <p> Home</p>
                 </div>
@@ -44,17 +44,17 @@ export default function Hamburger({ isOpen, setOpen }) {
                   <p> About</p>
                 </div>
               </a>
-              <a href="#skill">
+              <a href="#skills">
                 <div onClick={() => onClose()}>
                   <p> Skills</p>
                 </div>
               </a>
-              <a href="#project">
+              <a href="#projects">
                 <div onClick={() => onClose()}>
                   <p> Projects</p>
                 </div>
               </a>
-              <a href="#contactMe">
+              <a href="#contact">
                 <div onClick={() => onClose()}>
                   <p> Contact</p>
                 </div>
