@@ -19,6 +19,7 @@ function Navbar() {
   return (
     <div className={style.navbar}  id="nav-menu" >
       <div className={style.logo}>
+        <Link to="home" spy={true} smooth={true} offset={0} duration={700}>
         <p >
           {" "}
           <span
@@ -27,7 +28,7 @@ function Navbar() {
             Sristy
           </span>
            Verma
-        </p>
+        </p></Link>
       </div>
       <div className={style.menus}>
         <li className="nav-link home">
