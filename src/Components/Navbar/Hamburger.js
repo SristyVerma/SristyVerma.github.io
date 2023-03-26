@@ -59,7 +59,7 @@ export default function Hamburger({ isOpen, setOpen }) {
                   <p> Contact</p>
                 </div>
               </a>
-              <a href={resume} download="Raj_Kumar_Sahu_Resume"  onClick={HandleOnClick} >
+              <a href={resume} download="Sristy_Verma_Resume"  onClick={HandleOnClick} >
                 <div onClick={() => onClose()}>
                   <p> Resume</p>
 
