@@ -34,7 +34,7 @@ function Name() {
        
        
           <button className={style.resumeButton} id="resume-button-2"
- > <a href={resume} download="Sristy_Verma_Resume"  onClick={HandleOnClick}  id="resume-link-2">
+ > <a href={resume} download="Sristy-Verma-Resume"  onClick={HandleOnClick}  id="resume-link-2">
             <DownloadIcon bg={"transparent"} />
             RESUME</a>
           </button>
